@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sude Kırlar" />
+    <meta name="description" content="Hi-Kod Homework: 2" />
+    <title>Homework: Creating a Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    
+    
+    <div class = "all-box">
+        <p class = "contact-me">
+            Contact Me!
+        </p>
+        <p>
+            <form action="/submit" method="post">
+                <label for="name" class = "name-input"></label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                
+              </form>
+              
+        </p>
+        <p>
+            <form action="/submit" method="post">
+                <label for="email" class = "email-input"></label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                
+              </form>
+              
+        </p>
+        <p>
+            <form action="/submit" method="post">
+                <label for="phone"></label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+              </form>
+              <button class = "submit-button">Submit</button>
+              
+        </p>
+    </div>
+
+  </body>
+</html>
+
+
+
